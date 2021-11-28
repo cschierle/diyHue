@@ -3,10 +3,10 @@
 # echo "Target platform is: $TARGETPLATFORM"
 
 case "$TARGETPLATFORM" in
- "linux/amd64") SELECTED="x86_64" ;;
- "linux/arm/v6") SELECTED="arm" ;;
- "linux/arm/v7") SELECTED="arm" ;;
- "linux/arm64") SELECTED="aarch64" ;;
+ "amd64") SELECTED="x86_64" ;;
+ "arm/v6") SELECTED="arm" ;;
+ "arm/v7") SELECTED="arm" ;;
+ "arm64") SELECTED="aarch64" ;;
     *) SELECTED="unsupported" ;;
 esac
 
