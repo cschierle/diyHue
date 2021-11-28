@@ -2,7 +2,7 @@ version: '3'
 services:
   diyHue:
     image: diyhue/core:latest
-    # This makes for more convienient naming, but only allows one instance of the image
+    # This makes for more convenient naming, but only allows one instance of the image
     container_name: diyHue
     restart: unless-stopped
 
